@@ -9,7 +9,7 @@ Take a screenshot
 Installation
 ------------
 
-Simply drop both files into your project and include the header were required.
+Simply drop both files into your project and include the header where required.
 
 Supported
 ---------
