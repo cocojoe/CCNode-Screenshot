@@ -1,38 +1,44 @@
+CCNode+Screenshot
+=================
+
 Description
-_________________
+___________
 
 Take a screenshot
 
 Installation
-_________________
+____________
 
 Simply drop both files into your project and include the header were required.
 
 Supported
-_________________
+_________
 
 iOS4+, cocos2d 2.0, (Unofficial) cocos2d 1.0 (See Code)
 
 ARC         
-_________________
+___
 
-Works with ARC & Non-Arc
+Supports ARC/Non-Arc
 
 Tested      
-_________________
+______
 
-iOS5 Simulator (All Devices)
-iPhone (Retina) 5.1
+* iOS5 Simulator (All Devices)
+* iPhone (Retina) 5.1
 
 Example
-_________________
+_______
 
+```objective-c
 [self getScreenshot:^(UIImage *image){
     CCLOG(@"Saving Screenshot to Photo Album");
     UIImageWriteToSavedPhotosAlbum(image, self, nil, nil);
  }];
+```
   
 Misc
-_________________
+____
 
-Any questions you can find me (@cocojoe) on the cocos2d forum: http://www.cocos2d-iphone.org/forum/ 
+Any questions you can find me (@cocojoe) on the cocos2d forum: 
+http://www.cocos2d-iphone.org/forum/ 
