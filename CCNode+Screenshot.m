@@ -25,10 +25,10 @@
  * Description : Take a screenshot
  * Installation: Simply drop both files into your project and include the header were required.
  *
- * Supported   : iOS4+, cocos2d 2.0, (Unoffical) cocos2d 1.0 (See Below)
+ * Supported   : iOS4+, cocos2d 2.0, (Unofficial) cocos2d 1.0 (See Below)
  * ARC         : Works with ARC & Non-Arc
  * Tested      : iOS5 Simulator (All Devices)
- *             iPhone (Retina) 5.1
+ *               iPhone (Retina) 5.1
  *
  * Example:
  * [self getScreenshot:^(UIImage *image){
