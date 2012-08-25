@@ -23,7 +23,7 @@
  * THE SOFTWARE.
  *
  * Description : Take a screenshot
- * Installation: Simply drop both files into your project and include the header were required.
+ * Installation: Simply drop both files into your project and add #import "CCNode+Screenshot.h" were required.
  *
  * Supported   : iOS4+, cocos2d 2.0, (Unofficial) cocos2d 1.0 (See Below)
  * ARC         : Works with ARC & Non-Arc
@@ -41,6 +41,7 @@
  */
 
 #import "CCNode+Screenshot.h"
+#import "CCDirector.h"
 #import <objc/runtime.h>
 
 static char SCREENSHOTBLOCK_KEY;

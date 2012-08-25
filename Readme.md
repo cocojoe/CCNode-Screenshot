@@ -9,7 +9,7 @@ Take a screenshot
 Installation
 ------------
 
-Simply drop both files into your project and include the header where required.
+Simply drop both files into your project and add #import "CCNode+Screenshot.h" were required.
 
 Supported
 ---------
